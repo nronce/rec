@@ -1,0 +1,14 @@
+acquisition:
+  mode: "Normal"
+  smlm_exposure_ms: 30.0
+
+camera_settings:
+  # Basic Settings
+  gain: "High"             # Options: 'Low', 'Medium', 'High'
+  readout_speed: 100.0     # Options: 100.0, 200.0
+  
+  # Thermal Control
+  fan_off: True            # Set to True to DISABLE the fan
+  temp_setpoint: -20.0     # Discovered target: 'Sensor Temperature Set Point'
+
+  # Note: Binning is removed as the GS144BSI hardware does not support it
